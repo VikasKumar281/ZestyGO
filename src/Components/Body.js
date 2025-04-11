@@ -117,7 +117,7 @@ return(listOfRestaurants.length === 0)?(
                   const filteredList = listOfRestaurants.filter(
                     (restaurant) => restaurant?.info?.avgRating > 4.0 
                   );
-                  setListOfRestaurant(filteredList);
+                  setFilteredRestaurant(filteredList);
                 }}
                   >
                   Top Rated Restaurants
